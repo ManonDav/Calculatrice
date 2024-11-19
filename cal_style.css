@@ -1,0 +1,92 @@
+/* SAE3 Calculatrice - DAVION Manon et QUESTE Arthur - groupe 2C */
+
+body{
+	background-image: url("./background.jpg");
+	background-size: 100%;
+    background-repeat: no-repeat;
+	background-color : #EEFCFF;
+}
+
+#Calculatrice{
+	background-color: #C7DCA7;
+	height: 560px;
+	width: 365px;
+	border: 10px solid #89B9AD;
+	margin: auto;
+	margin-top: 50px;
+	border-radius: 10px;
+}
+
+#fenetre{
+	height: 180px;
+	width: 360px;
+	margin: auto;
+	background-color: snow;
+	border: 3px outset #C7DCA7;
+}
+
+h1{
+	margin: auto;
+	text-align: center;
+	font-family: consolas;
+	color : #669287;
+}
+
+#touche{
+	border: 15px solid #89B9AD;
+	border-top: 30px solid #C7DCA7;
+}
+
+#l0, #l1, #l2, #l3, #l4, #l5{
+	margin-bottom: 10px;
+}
+
+#l6{
+	text-align: center;
+}
+
+button{
+	width: 24%;
+	height: 40px;
+	font-family: consolas;
+	font-weight: bold;
+	margin: auto;
+	color : rgb(179, 125, 134);
+	background-color : #FFEBD8;
+	border: 2px outset #FFC5C5;
+	border-radius: 20px;
+}
+
+button:hover{
+	width: 24%;
+	height: 36px;
+	margin: auto;
+	border: 3px inset #FFC5C5;
+}
+#par_g{
+	width: 19%;
+}
+
+#par_d{
+	width: 19%;
+}
+
+#z_plus{
+	width: 19%;
+}
+
+#z_moins{
+	width: 19%;
+}
+
+#graphique{
+	width: 19%;
+}
+
+#nom_cal{
+	position: absolute;
+	top : 225px;
+	font-family: consolas;
+	font-style: oblique;
+	color : #96b16e;
+}
